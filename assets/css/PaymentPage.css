@@ -1,0 +1,72 @@
+styles.css
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .product-list {
+    flex: 1;
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .product-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+  }
+  
+  .cart {
+    flex: 1;
+    margin-left: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+  }
+  
+  .total {
+    margin-top: 10px;
+    text-align: right;
+  }
+  
+  .payment-form {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 5px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,63 @@
+
+  .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(https://images5.alphacoders.com/506/thumb-1920-506616.jpg);
+
+}
+
+.head {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+form {
+  width: 400px;
+  padding: 2rem;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  background-image: linear-gradient(79deg, #7439db, #C66FBC 48%, #F7944D);
+}
+
+.email,
+.pwd {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+input[type='email'],
+input[type='password'] {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
